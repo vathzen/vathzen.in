@@ -76,6 +76,11 @@
 @media screen and (max-width: 700px){
     .grid{
         flex-basis: 50%;
+        background-color: #9ea7a6;
+        justify-content: center;
+    }
+    .grid > img:not(:first-child){
+        display: none;
     }
     .appBar{
         flex-direction: column;
