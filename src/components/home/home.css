@@ -61,10 +61,17 @@
 
 #contact{
     background-color: transparent;
-    color: black;
     border: 2px solid black;
     padding-left: 2em;
     padding-right: 2em;
+}
+
+#contact:hover{
+    background-color: black;
+}
+
+#contact:hover > a{
+    color: white;
 }
 
 #contact a{
