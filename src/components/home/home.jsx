@@ -19,10 +19,10 @@ const Home = (props) => {
         <div className='outer'>
             <div className='grid'>
                 <img src={Doodle} alt="Doodle"/>
-                <img src={Bungee} alt="Speech"/>
                 <img src={Speech} alt="Speech"/>
+                <img src={Moon} alt="Speech"/>
                 <img src={Peak} alt="Peak"/>
-                <img src={Moon} alt="Moon"/>
+                <img src={Bungee} alt="Moon"/>
             </div>
             <div className='appBar'>
                 <div className='inner'>
