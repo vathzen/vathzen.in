@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Doodle from '../../assets/img/doodle.jpg'
 import Peak from '../../assets/img/mountain-top.png'
@@ -12,6 +13,8 @@ import MB from '../../assets/img/math-board.jpg'
 import MF from '../../assets/img/mountain-foot.png'
 import Bookmark from '../../assets/img/bookmark.jpeg'
 import Stitch from '../../assets/img/Stitch2.jpg'
+
+import PDF from '../../assets/docs/resume.pdf'
 
 import './home.css'
 
@@ -27,10 +30,10 @@ const Home = (props) => {
             </div>
             <div className="appBarOuter">
                 <div className="nav">
-                    <a href="">Me</a>
-                    <a href="">Books</a>
-                    <a href="">Blog</a>
-                    <a href="">Resume</a>
+                    <Link to="/about-me" className="links">Me</Link>
+                    <a href="https://books.vathzen.in/#library_id=Calibre&panel=book_list" target="_blank">Books</a>
+                    <a href="https://blog.vathzen.in" target="_blank">Blog</a>
+                    <a href={PDF} target="_blank" className="links">Resume</a>
                 </div>
                 <div className='appBar'>
                     <div className='inner'>
@@ -49,10 +52,10 @@ const Home = (props) => {
                     </div>
                 </div>
                 <div className="nav">
-                    <a href="">Projects</a>
-                    <a href="">Experience</a>
-                    <a href="">Interests</a>
-                    <a href="">Wallpapers</a>
+                    <Link to="" className="links">Projects</Link>
+                    <Link to="" className="links">Experience</Link>
+                    <Link to="" className="links">Interests</Link>
+                    <Link to="" className="links">Wallpapers</Link>
                 </div>
             </div>
             <div className='grid lower'>

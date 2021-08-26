@@ -1,0 +1,104 @@
+.about-me{
+    display: flex;
+    height: 100%;
+}
+
+.outerTitle{
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url('https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/91e12c4f-08ed-4fc2-a80c-52a5c424b893');
+}
+
+.outerTitle > * {
+    margin: 2vh 0 2vh 0;
+    padding: 0 2vw 0 2vw;
+}
+
+.title{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 5vh;
+}
+
+.body{
+    flex-basis: 70%;
+    height: 100%;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body > *{
+    max-width: 60vw;
+}
+
+.desc{
+    margin-top: 3vh;
+    padding: 0 0.5em 0 0.5em;
+    font-size: 2vh;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    font-size: 2vh;
+}
+
+.info > *{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.steam{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.steam > * {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.discord{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+}
+
+.info-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-col > * {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+@media screen and (max-width: 1025px){
+    .body > *{
+        max-width: 80vw;
+    }
+
+    .about-me{
+        flex-direction: column;
+    }
+
+    .discord{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .widget{
+        min-height: 300px;
+    }
+}
