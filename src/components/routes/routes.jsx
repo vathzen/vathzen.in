@@ -14,7 +14,7 @@ export default function Routes(){
             <Route exact path='/interests' component={Home}/>
 
             <Route exact path='/discord' component={() => {
-                window.location.replace('https://discord.com/invite/XjUfbq37');
+                window.location.replace('https://discord.gg/VUwZwGjBER');
                 return null;
             }} />
         </Switch>
