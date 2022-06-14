@@ -1,0 +1,80 @@
+.experience{
+    display: flex;
+    height: max-content;
+}
+
+.outerTitle{
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    background-image: url('https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/91e12c4f-08ed-4fc2-a80c-52a5c424b893');
+    background-repeat: repeat-y;
+}
+
+.outerTitle > * {
+    margin: 10vh 0 2vh 0;
+    padding: 0 2vw 0 2vw;
+}
+
+.title{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 5vh;
+}
+
+.body{
+    flex-basis: 70%;
+    height: 100%;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desc{
+    margin-top: 3vh;
+    padding: 0 0.5em 0 0.5em;
+    font-size: 2vh;
+}
+
+.companies{
+    width: 100%;
+}
+
+.sub-title{
+    margin-top: 2vh;
+    font-size: 3vh;
+}
+
+.company{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    padding: 3em;
+}
+
+.comp-info{
+    padding: 2em 0.5em 0 0.5em;
+    font-size: 2vh;
+    font-family: 'Joan', serif;
+}
+ 
+
+@media screen and (max-width: 1025px){
+    .body > *{
+        max-width: 80vw;
+    }
+
+    .experience{
+        flex-direction: column;
+    }
+
+    .outerTitle > * {
+        margin: 5vh 0 2vh 0;
+    }
+}

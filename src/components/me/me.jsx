@@ -15,7 +15,7 @@ const Me = (props) => {
                 <div className="desc">
                     <p>I'm an alumnus of SASTRA University, Thanjavur where I completed my B.Tech in Information and Communication Technology in 2020.</p>
                     
-                    <p>I currently work as a Systems Engineer in TCS, focusing on applications in the BFSI domain.</p>
+                    <p>I currently work as a Systems Engineer in TCS, focusing on applications in the BFSI domain and specialize in Unix and PL/SQL stack.</p>
                     
                     <p>I'm also a proud alumnus of one of the largest chain of schools in the world, Kendriya Vidyalaya, graduating from the Ashok Nagar branch in 2016 majoring in Computer Science.</p>
 
