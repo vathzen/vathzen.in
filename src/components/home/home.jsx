@@ -1,18 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Doodle from '../../assets/img/doodle.jpg'
-import Peak from '../../assets/img/mountain-top.png'
-import Speech from '../../assets/img/speech.jpg'
-import Moon from '../../assets/img/moon.png'
-import Bungee from '../../assets/img/bungee.png'
+import Doodle from '../../assets/img/home/doodle.jpg'
+import Peak from '../../assets/img/home/mountain-top.png'
+import Speech from '../../assets/img/home/speech.jpg'
+import Moon from '../../assets/img/home/moon.png'
+import Bungee from '../../assets/img/home/bungee.png'
 
-import Session from '../../assets/img/session.jfif'
-import PP from '../../assets/img/pp.jpg'
-import MB from '../../assets/img/math-board.jpg'
-import MF from '../../assets/img/mountain-foot.png'
-import Bookmark from '../../assets/img/bookmark.jpeg'
-import Stitch from '../../assets/img/Stitch2.jpg'
+import Session from '../../assets/img/home/session.jfif'
+import PP from '../../assets/img/home/pp.jpg'
+import MB from '../../assets/img/home/math-board.jpg'
+import MF from '../../assets/img/home/mountain-foot.png'
+import Bookmark from '../../assets/img/home/bookmark.jpeg'
+import Stitch from '../../assets/img/home/Stitch2.jpg'
 
 import PDF from '../../assets/docs/resume.pdf'
 
