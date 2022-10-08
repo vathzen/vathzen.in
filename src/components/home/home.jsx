@@ -52,7 +52,7 @@ const Home = (props) => {
                     </div>
                 </div>
                 <div className="nav">
-                    <Link to="" className="links">Projects</Link>
+                    <Link to="/projects" className="links">Projects</Link>
                     <Link to="/experience" className="links">Experience</Link>
                     <Link to="" className="links">Interests</Link>
                     <Link to="" className="links">Designs</Link>

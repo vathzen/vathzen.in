@@ -1,16 +1,17 @@
 import React from 'react';
-import {Switch, Route, Redirect} from 'react-router-dom';
+import {Switch, Route} from 'react-router-dom';
 
 import Home from '../home/home';
 import Me from '../me/me';
 import Experience from '../experiences/experiences';
+import Projects from '../projects/projects';
 
 export default function Routes(){
     return(
         <Switch>
             <Route exact path='/' component={Home}/>
             <Route exact path='/about-me' component={Me}/>
-            <Route exact path='/projects' component={Home}/>
+            <Route exact path='/projects' component={Projects}/>
             <Route exact path='/experience' component={Experience}/>
             <Route exact path='/interests' component={Home}/>
             <Route exact path='/designs' component={Home}/>

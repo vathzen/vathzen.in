@@ -104,12 +104,12 @@ const Experience = (props) => {
                         <hr />
                         <div className="desc">
                             <p>I have also consulted for various Startups as a Web Developer and as a Dev Ops Manager, listed some below in no particular order.</p>
-                            <div className="consult">
+                        </div>
+                        <div className="consult">
                                 <a href="https://smoose.in/"><img src={Smoose} width="200px" alt="" /></a>
                                 <a href="https://brandma.in/"><img src={Brandma} alt="BrandMa" width="200px"/></a>
                                 <a href="http://tsysheninc.com/"><img src={Tsyshen} width="200px" alt="" /></a>
                                 <a href="http://lazypandaw.in/"><img src={Lazy} width="200px" alt="" /></a>
-                            </div>
                         </div>
                     </div>                       
                                    
