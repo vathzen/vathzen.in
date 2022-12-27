@@ -37,7 +37,7 @@ const Experience = (props) => {
                             <div className="comp-info">
                                 <p>Tata Consultancy Services ( <a href='https://www.tcs.com/'>↝</a> ) </p>
                                 <p><b>Nov 2020 - Present</b></p>
-                                <p>Working as a Oracle Developer, consulting for Kemper in the BFSI Domain. Spearheaded many high visibility Projects and Enhancements in Unix and PL/SQL.</p>
+                                <p>Working as a Oracle Developer, consulting for Kemper in the BFSI Domain. Spearheaded many high visibility Projects and Enhancements in Unix and PL/SQL stack and achieved Contextual Master certification for the same.</p>
                             </div>
                         </div>
                     </div>
