@@ -59,13 +59,12 @@ const Home = (props) => {
                 </div>
             </div>
             <div className='grid lower'>
-                <img src={Stitch} alt="Liffey" />
                 <img src={PP} alt="Profile Pic" />
                 <img src={MF} alt="Cloud View" />
                 <img src={Session} alt="Git Session" />
                 <img src={MB} alt="Snowfall" />
                 <img src={Bookmark} alt="Bookmark" />
-
+                <img src={Stitch} alt="Liffey" />
             </div>
         </div>
     )
