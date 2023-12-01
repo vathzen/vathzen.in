@@ -7,7 +7,7 @@ import Speech from '../../assets/img/home/speech.jpg'
 import Moon from '../../assets/img/home/moon.png'
 import Bungee from '../../assets/img/home/bungee.png'
 
-import Session from '../../assets/img/home/session.jpg'
+import Session from '../../assets/img/home/session.jfif'
 import PP from '../../assets/img/home/pp.jpg'
 import MB from '../../assets/img/home/snow.jpg'
 import MF from '../../assets/img/home/mountain-foot.png'
